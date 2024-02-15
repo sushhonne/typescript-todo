@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Revolution&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Protest Revolution", sans-serif;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(152, 13, 13);
+}
+p {
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Nanum Gothic", sans-serif;
+}
+input {
+  height: 30px;
+  width: 300px;
+  background-color: rgb(240, 236, 236);
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-top: 40px;
+  color: black;
+}
+li {
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+button {
+  height: 30px;
+  width: 100px;
+  background-color: rgb(216, 151, 10);
+  color: white;
+  font-size: 1.05rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
